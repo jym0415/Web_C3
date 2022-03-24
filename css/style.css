@@ -1,0 +1,91 @@
+*{margin: 0; padding: 0;}
+li,ul{list-style: none;}
+a{text-decoration: none; color: #333; font-family: "맑은고딕",sans-serif;}
+
+/*공통*/
+.container{width: 1000px;}
+.m-auto{margin: 0 auto;}
+.d-none{display: none;}
+.d-flex{display: flex;}
+.d-block{display: block;}
+.abs{position: absolute;}
+.rel{position: relative;}
+.justify-between{justify-content: space-between;}
+.align-center{align-items: center;}
+.h100{height: 100px;}
+.h350{height: 350px;}
+.h200{height: 200px;}
+.ofh{overflow: hidden;}
+
+/*header*/
+#right{width: 800px;}
+#hd{width: 200px; height: 650px; background-color: beige;}
+#hd h1{line-height: 3;}
+.d1a{
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 3;
+    border-bottom: 1px solid #333;
+    text-align: center;
+    min-width: 120px;
+}
+.d2ul{
+    line-height: 2;
+    font-size: 18px;
+    font-weight :500;
+    text-align: center;
+    height: 0;
+    width: 200px;
+    left: 100%;
+    top: -10px;
+    overflow: hidden;
+    transition: 0.5s;
+    z-index: 99;
+}
+.d1li:hover .d2ul{
+    height: 120px;
+}
+.d1li:hover .d1a{background-color:rgb(51, 51, 51) ;}
+.d1li:hover .d1a{color: #fff;}
+
+.d2ul li{background-color: rgb(215, 228, 194) ;}
+.d2ul li:hover{background-color: rgb(107, 122, 83);}
+.d2ul li:hover a{color: aliceblue;}
+
+/*slider*/
+.slider ul{width: 100000000px;}
+
+/*content*/
+
+#content > div {width: 33.333%;}
+#content h3{
+    padding: 0 5px;
+    line-height: 3;
+    cursor: pointer;
+}
+#content h3:hover { background-color: rgb(96, 221, 96);}
+#content ul{padding: 0 10px;}
+.notice{border-right: 1px solid #ccc;}
+.notice li {
+    display: flex;
+    font-size: 16px;
+    line-height: 2;
+    white-space: nowrap;
+    justify-content: space-between;
+}
+.notice a{
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 150px;
+}
+.notice a:hover {font-weight: bold;}
+
+.gallery img{width: 90%;}
+.banner img{width: 100%; height: 100%;}
+
+/*ft*/
+#ft{background-color: #ccc;}
+.ftlogo{width: 30%;}
+.ftrignt{width: 70%;}
+
