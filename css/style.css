@@ -86,6 +86,29 @@ a{text-decoration: none; color: #333; font-family: "맑은고딕",sans-serif;}
 
 /*ft*/
 #ft{background-color: #ccc;}
-.ftlogo{width: 30%;}
-.ftrignt{width: 70%;}
+.ftlogo{width: 30%; margin-top: 30px;}
+.ftrignt{width: 70%; line-height: 3;}
+.copy{text-align: center;}
 
+/*popup*/
+.popup{
+    left: 50%; top:50%;
+    transform: translate(-50%,-50%);
+    width: 300px; 
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+    line-height: 2;
+    padding: 10px;
+    z-index: 100000000;
+}
+
+.popup button{padding: 0 10px; float: right;}
+.popbg{
+    background-color: black;
+    opacity: 0.5;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    }
